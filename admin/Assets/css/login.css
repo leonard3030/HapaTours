@@ -1,0 +1,54 @@
+
+body{
+	background-image: url('../../../images/aa4.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+a{text-decoration: none;}
+.login-form-container label{
+	font-size: 14px;
+	font-weight: 500;
+	margin-top: 5px;
+}
+.login-form-container input [type='text']{
+	font-size: 14px;
+	padding: 10px;
+	width: 100%;
+}
+.pull-right{
+	float: right;
+}
+.login-form-container button{
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 14px;
+	padding: 8px;
+}
+.checkbox b{
+	font-size: 14px;
+	font-weight: 400;
+} 
+.login-form-container{
+	display: flex;
+	margin-top: 10%;
+	justify-content: center;
+}
+.login-form-container form{
+	padding: 50px;
+	border-radius: 5px;
+	background-color: white;
+}
+.error {
+	width: 95%; 
+	margin: 0px auto; 
+	padding: 10px; 
+	border: 1px solid #f8cfce; 
+	color: #a94442; 
+	background: #fadcdc; 
+	border-radius: 5px; 
+	text-align: left;
+	font-size: 14px;
+}
+
+

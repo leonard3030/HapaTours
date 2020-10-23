@@ -1,0 +1,24 @@
+
+.nav-pills{
+	display: flex;
+	flex-direction: column;
+}
+.nav-pills li{
+	margin-bottom: 10px;
+}
+.upload h3{
+	color: #007bff;
+}
+.files h3{
+	color: #28a745;
+}
+.trash h3{
+	color: #ffc107;
+}
+.settings h3{
+	color: #6c757d;
+}
+.table-container{
+	max-height: 350px;
+	overflow-x: auto;
+}
